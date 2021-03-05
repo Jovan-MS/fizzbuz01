@@ -11,4 +11,13 @@ function fizzBuzz(i) {
   }
 }
 
-console.log(fizzBuzz(45))
+// Use this console log to test FizzBuzz function only, for the counter use one below 
+// console.log(fizzBuzz(45))
+
+const fizzBuzzCounter = function(n) {
+  for (let i = 1; i <= n; i++) {
+    console.log(fizzBuzz(i))
+  }
+}
+
+console.log(fizzBuzzCounter(111))
